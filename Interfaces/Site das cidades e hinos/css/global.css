@@ -1,0 +1,161 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/* NAVBAR */
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6C63FF;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.2);
+    height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+.div-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-logo img {
+    float: left;
+}
+
+.div-logo h1 a{
+    font-weight: 800;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    
+}
+
+.logo {
+    width: 60px;
+}
+
+/* FOOTER */
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #6C63FF;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    margin-top: 5%;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #564efc;
+}
+
+.footer-bottom{
+    background: #5f57f1;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 999px) {
+    nav {
+
+    }
+
+    .div-logo h1 a{
+        width: 20px;
+    }
+
+    .logo {
+        width: 35px;
+    }
+}

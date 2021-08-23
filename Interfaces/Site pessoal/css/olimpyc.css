@@ -1,0 +1,95 @@
+/* MAIN SECTION */
+.main-section {
+    width: 100%;
+    margin-bottom: 2%;
+    
+}
+
+.main-picture {
+    width: 80%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-picture img {
+    width: 700px;
+}
+
+.main-section h1 {
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main-section p {
+    margin-left: 7.5%;
+    text-align: justify;
+    font-size: medium;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* IMAGEM DO CENTRO */
+.center-picture {
+    text-align: center;
+    width: 100%;
+}
+
+.center-picture img {
+    width: 550px;
+}
+
+/* CAIXA DOS PROTAGONISTAS */
+.main-bottom {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-main-bottom {
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.box-protagonists {
+    border: 1px solid transparent;
+    width: 30%;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 27px #00000024;
+    text-align: center;
+}
+
+.section-box img {
+    width: 400px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.section-box i {
+    margin-top: 20px;
+    font-size: 50px;
+    color:silver;
+}
+
+.section-box h1 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
