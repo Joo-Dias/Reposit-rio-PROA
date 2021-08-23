@@ -1,4 +1,4 @@
-# Repositório-PROA
+# <img src="github/proa-logo.png" alt="Logo PROA" width="220px"/>
 <h3>Repositório para as atividades do PROA </h3>
-<img src="github/logo-proa.png" alt="Logo PROA" ?>
 
+Proa, curso gratuito focado em programação web e java, além de possuir núcleos sociais.
