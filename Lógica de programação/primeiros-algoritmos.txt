@@ -1,0 +1,147 @@
+Desafio 01 - Escovar os dentes.
+
+Algoritmo "Escovar os dentes"
+
+Inicio
+
+1° Passo = Pegar a escova;
+2° Passo = Pegar a pasta;
+3° Passo = Abrir a pasta;
+4° Passo = Passar a pasta na escova;
+5° Passo = Abrir a torneira;
+6° Passo = Molhar a escova;
+7° Passo = Encher a boca de água;
+8° Passo = Fechar a torneira;
+9° Passo = Chacoalhar a água na boca;
+10° Passo = Expelir a água na pia;
+11° Passo = Escovar os dentes;
+12° Passo = Enxaguar a boca;
+13° Passo = Lavar a escova;
+14° Passo = Guardar a escova;
+15° Passo = Guardar a pasta;
+
+Fim do algoritmo.
+
+Desafio 02 - Tomar banho.
+
+Algoritmo "Tomar Banho"
+
+Inicio
+
+1° Passo = Pegar a toalha;
+2° Passo = Ir para o banheiro;
+3° Passo = Tirar cada peça de roupa vestida;
+4° Passo = Entrar no box do banheiro;
+5° Passo = Abrir a torneira do chuveiro;
+6° Passo = Entrar de baixo do chuveiro;
+7° Passo = Lavar o corpo todo com a água;
+8° Passo = Pegar o sabonete;
+9° Passo = Passar água no sabonete;
+10° Passo = Desligar o chuveiro;
+11° Passo = Passar o saboneto no corpo todo;
+12° Passo = Guardar o sabonete;
+13° Passo = Ligar o chuveiro;
+14° Passo = Tirar o sabonete do corpo todo;
+15° Passo = Molhar o corpo todo com água de novo;
+16° Passo = Desligar o chuveiro;
+17° Passo = Pegar o shampoo;
+18° Passo = Abrir o shampoo;
+19° Passo = Derramar o shampoo na mão;
+20° Passo = Passar o shampoo da mão no cabelo;
+21° Passo = Guardar o shampoo;
+22° Passo = Esfregar a cabeça cheia de shampoo;
+23° Passo = Ligar o chuveiro;
+24° Passo = Tirar o shampoo do cabelo com a água;
+25° Passo = Esfregar o corpo todo com a água;
+26° Passo = Desligar o chuveiro;
+27° Passo = Pegar a toalha;
+28° Passo = Secar o corpo com a toalha;
+29° Passo = Sair do box do banheiro;
+30° Passo = Sair do banheiro;
+31° Passo = Ir para o seu quarto;
+32° Passo = Pegar peças de roupas;
+33° Passo = Vestir as peças de roupas;
+34° Passo = Ir guardar a toalha;
+
+Fim do algoritmo
+
+Desafio 03 - Trocar o pneu em uma rodovia de trânsito rápido
+
+Algoritmo "Trocar de penu"
+
+Inicio 
+
+1° Passo = Parar o carro em uma área não movimentada;
+2° Passo = Fechar as janelas do carro;
+3° Passo = Retirar a chave do carro;
+4° Passo = Guardar a chave do carro no bolso;
+5° Passo = Tirar o cinto;
+6° Passo = Abrir a porta do carro;
+7° Passo = Sair do carro;
+8° Passo = Fechar a porta do carro;
+9° Passo = Ir para trás do carro;
+10° Passo = Pegar a chave do carro que está no bolso;
+11° Passo = Colocar a chave no porta malas do carro;
+12° Passo = Abrir o porta malas;
+13° Passo = Pegar os equipamentos necessários para a troca de peneu;
+14° Passo = Colocar todos os equipamentos no chão;
+15° Passo = Pegar o pneu extra que está no porta malas;
+16° Passo = Colocar o pneu no chão junto dos equipamentos;
+17° Passo = Fechar o porta malas;
+18 Passo = Tirar a chave do carro que está na abertura do porta malas;
+19° Passo = Pegar os equipamentos e o penu extra e levar para perto do penu estragado;
+20° Passo = Pegar a ferramenta "macaco";
+21° Passo = Colocar o macaco embaixo do carro;
+22° Passo = Levantar o carro com o macaco;
+23° Passo = Pegar as ferramentas para retirar o pneu;
+24° Passo = Retirar o pneu estragado;
+25° Passo = Pegar o penu extra;
+26° Passo = Colocar o penu na posição certa;
+27° Passo = Pegar as ferramentas;
+28° Passo = Colocar o pneu;
+29° Passo = Pegar as ferramentas;
+30° Passo = Levar para trás do carro;
+31° Passo = Voltar para pegar o pneu;
+32° Passo = Pegar o pneu estragado;
+33° Passo = Levar para tras do carro;
+34° Passo = Voltar novamente para retirar o macaco;
+35° Passo = Abaixar o carro;
+36° Passo = Retirar o macaco;
+37° Passo = Pegar o macaco;
+38° Passo = Ir para trás do carro;
+39° Passo = Colocar o macaco no chão;
+40° Passo = Pegar a chave do carro que está no bolso;
+41° Passo = Colocar a chave na abertura do porta malas;
+42° Passo = Abrir o porta malas;
+43° Passo = Pegar as ferramentas no chão e o macaco também;
+44° Passo = Guardar as ferrmamentas e o macaco;
+45° Passo = Pegar o penu estrgado;
+46° Passo = Guardar o penu estragado;
+47° Passo = Fechar o porta malas;
+48° Passo = Tirar a chave do porta malas;
+49° Passo = Ir para frente do carro;
+50° Passo = Colocar a chave na porta;
+51° Passo = Abrir a porta da frente;
+52° Passo = Tirar a chave da porta;
+53° Passo = Entrat no carro;
+54° Passo = Fechar a porta;
+55° Passo = Colocar a chave no volante;
+56° Passo = Ligar o carro;
+57° Passo = Voltar para a rodovia;
+
+Fim do algoritmo
+
+Desafio 04 - Calculadora
+
+Algoritmos computacionais
+
+Inicio 
+
+1° Passo = Pedir para o usuário Digitar o primeiro número;
+2° Passo = Leia o número digitado n1;
+3° Passo = Pedir para o usuário digite o segundo número;
+4° Passo = Leia o número digitado n2;
+5° Passo = Efetua a soma de n1 + n2;
+6° Passo = Exibir o resultado;
+
+Fim do algoritmo
