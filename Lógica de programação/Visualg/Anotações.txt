@@ -1,0 +1,26 @@
+Tipos de dados no Visualg
+
+Inteiro: Números positivos e negativos sem casas decimais.
+Real: Números positivos e negatvios com casas decimais.
+Caracter: Letras e números.
+Lógico: Verdadeoiro ou falsa.
+
+Escreva: Mensagem na tela Escreva("").
+Escreval: Mensagem na tela, porém pulando uma linha.
+
+Regras para criação de nomes de variáveis.
+
+1) Não pode começar com números(9vidade).
+2) Não pode conter espaços(Nome Completo).
+3) Não pode conter caracteres especiais(Nome*Completo) exceto underline ou underscore.).
+4) Nomes reservados.
+5) Pode começar com letra e depois números(numero02)
+6) Nome de variavéis amigáveis (soma).
+7) Variáveis são case sensitive. nome <> Nome <> NOME <> nomE.
+
+Sinais de operações
+
+Adição: +.
+Subtração: -.
+Multiplicação: *.
+Divisão; /.
