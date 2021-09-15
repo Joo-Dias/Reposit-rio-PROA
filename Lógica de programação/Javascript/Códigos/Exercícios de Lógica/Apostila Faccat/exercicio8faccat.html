@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar o total de eleitores e votos.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Eleitores, Votos">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total de eleitores</title>
+</head>
+<body>
+    <!-- 
+        8) Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos
+        brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total
+        de eleitores.
+     -->
+    <script>
+        let eleitores = parseInt(prompt("Digite a quantidade de eleitores:"));
+        let votosBrancos = parseInt(prompt("Digite a quantidade de votos brancos:"));
+        let votosNulos = parseInt(prompt("Digite a quantidade de votos nulos:"));
+        let votosValidos = parseInt(prompt("Digite a quantidade de votos válidos:"));
+
+        let percentualVotoBranco = (votosBrancos/eleitores)*100;
+        let percentualVotoNulo = (votosNulos/eleitores)*100;
+        let percentualVotoValido = (votosValidos/eleitores)*100;
+
+        alert("O percentual de votos brancos são de: "+percentualVotoBranco+"%");
+        alert("O percentual de votos nulos são de: "+percentualVotoNulo+"%");
+        alert("O percentual de votos válidos são de: "+percentualVotoValido+"%");
+
+    </script>
+</body>
+</html>
