@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar os valores de um teste de mesa.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Mesa, Teste">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de mesa</title>
+</head>
+<body>
+    <!-- 
+        34) Reproduzir um teste de mesa com o seguinte algoritmo:
+            início
+                ler x
+                ler y
+                z  (x*y) + 5
+                se z <= 0 então
+                    resposta  ‘A’
+                senão
+                    se z <= 100 então
+                    resposta  ‘B’
+                senão
+                resposta  ‘C’
+                fim_se
+                fim_se
+                escrever z, resposta
+            fim 
+     -->
+     <script>
+         let x = parseFloat(prompt("Insira o valor para X:"));
+         let y = parseFloat(prompt("Insira o valor para Y:"));
+         let z = (x*y) + 5;
+         let resposta = String;
+
+         if(z <= 0) {
+            resposta = "A";
+         } else if(z <= 100) {
+             resposta = "B";
+         } else {
+             resposta = "C";
+         }
+         alert("O resultado é "+z+" e a resposta é "+resposta);
+     </script>
+</body>
+</html>

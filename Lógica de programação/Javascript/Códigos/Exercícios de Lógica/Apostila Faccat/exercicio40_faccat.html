@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresnetar respostas corretas de um exercício de operadores.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Operadores, Exercício">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício lógico de operadores</title>
+</head>
+<body>
+    <!-- 
+        40) Faça um algoritmo para ler: a descrição do produto (nome), a quantidade adquirida e o preço
+        unitário. Calcular e escrever o total (total = quantidade adquirida * preço unitário), o desconto e o total
+        a pagar (total a pagar = total - desconto), sabendo-se que:
+        - Se quantidade <= 5 o desconto será de 2%
+        - Se quantidade > 5 e quantidade <=10 o desconto será de 3%
+        - Se quantidade > 10 o desconto será de 5% 
+     -->
+     <script>
+         let nome = String(prompt("Digite o nome do produto:"));
+         let quantidadeAdquirida = parseFloat(prompt("Digite a quantidade adquirida de produtos:"));
+         let precoUnitario = parseFloat(prompt("Digite o preço unitário:"));
+         let total = quantidadeAdquirida * precoUnitario;
+         let desconto = parseFloat();
+         let totalAPagar = parseFloat();
+
+         if(quantidadeAdquirida <= 5) {
+             desconto = 0.02;
+         } else if(quantidadeAdquirida > 5 && quantidadeAdquirida <=10) {
+            desconto = 0.03;
+         } else if(quantidadeAdquirida > 10) {
+             desconto = 0.05;
+         }
+
+         totalAPagar = total - (total*(desconto/100));
+         alert("O total a pagar pelo produto "+nome+" é de: R$"+totalAPagar);
+     </script>
+</body>
+</html>

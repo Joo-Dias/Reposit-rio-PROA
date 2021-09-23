@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar o saldo da conta de um cliente.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Estoque, Produtos">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque de Produtos</title>
+</head>
+<body>
+    <!-- 
+        26) Faça um algoritmo para ler: quantidade atual em estoque, quantidade máxima em estoque e
+        quantidade mínima em estoque de um produto. Calcular e escrever a quantidade média ((quantidade
+        média = quantidade máxima + quantidade mínima)/2). Se a quantidade em estoque for maior ou igual
+        a quantidade média escrever a mensagem 'Não efetuar compra', senão escrever a mensagem 'Efetuar
+        compra'.  
+     -->
+     <script>
+         let qatAtual = parseFloat(prompt("Digite a quantidade atual de produtos no estoque:"));
+         let qatMax = parseFloat(prompt("Digite a quantidade máxima de produtos no estoque:"));
+         let qatMin = parseFloat(prompt("Digite a quantidade miníma de produtos no estoque:"));
+         let qatMedia = parseFloat();
+
+         qatMedia = (qatMax+qatMin)/2
+         if(qatAtual>=qatMedia) {
+             alert("Não efetuar compra!");
+         } else {
+             alert("Efetuar compra!");
+         }
+     </script>
+</body>
+</html>

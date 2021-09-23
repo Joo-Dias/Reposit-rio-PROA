@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar se os valores inseridos formam um triângulo">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Valores, Triângulo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formando um triângulo</title>
+</head>
+<body>
+    <!-- 
+        31) Ler 3 valores (A, B e C) representando as medidas dos lados de um triângulo e escrever se formam
+        ou não um triângulo. OBS: para formar um triângulo, o valor de cada lado deve ser menor que a soma
+        dos outros 2 lados.   
+     -->
+     <script>
+         let A = parseInt(prompt("Digite um valor para A:"));
+         let B = parseInt(prompt("Digite um valor para B:"));
+         let C = parseInt(prompt("Digite um valor para C:"));
+
+         if(A < B+C) {
+             alert("Forma um triângulo!");
+         } else if(B < A+C) {
+             alert("Forma um triângulo1");
+         } else if(C < A+B) {
+             alert("Forma um triângulo!");
+         } else {
+             alert("Não forma um triângulo!");
+         }
+     </script>
+</body>
+</html>

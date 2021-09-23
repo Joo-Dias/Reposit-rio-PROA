@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar a nota de um aluno.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Aluno, Nota">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota de um Aluno</title>
+</head>
+<body>
+    <!-- 
+        41) Faça um algoritmo para ler as 3 notas obtidas por um aluno nas 3 verificações e a média dos
+        exercícios que fazem parte da avaliação. Calcular a média de aproveitamento, usando a fórmula abaixo
+        e escrever o conceito do aluno de acordo com a tabela de conceitos mais abaixo:  
+     -->
+     <script>
+        let nota1 = parseFloat(prompt("Digite a primeira nota:"));
+        let nota2 = parseFloat(prompt("Digite a segunda nota:"));
+        let nota3 = parseFloat(prompt("Digite a terceira nota:"));
+        let mediaExercicios = parseFloat(prompt("Digite a média dos exercícios:"));
+        let mediaAproveitamento = (nota1 + nota2 * 2 + nota3 * 3 + mediaExercicios) / 7;
+
+        if(mediaAproveitamento >= 9) {
+            alert("O aluno está com a nota A!");
+        } else if(mediaAproveitamento >= 7.5 && mediaAproveitamento < 9) {
+            alert("O aluno está com a nota B!");
+        } else if(mediaAproveitamento >= 6 && mediaAproveitamento < 7.5) {
+            alert("O aluno está com a nota C!");
+        } else if(mediaAproveitamento < 6) {
+            alert("O aluno está com  nota D!");
+        }
+     </script>
+</body>
+</html>

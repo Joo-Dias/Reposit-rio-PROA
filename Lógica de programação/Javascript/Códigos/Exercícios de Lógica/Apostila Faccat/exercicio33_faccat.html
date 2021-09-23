@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar se os valores são iguais, maior ou menor.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Valores, Condição">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores</title>
+</head>
+<body>
+    <!-- 
+        33) Ler dois valores e imprimir uma das três mensagens a seguir:
+        ‘Números iguais’, caso os números sejam iguais
+        ‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
+        ‘Segundo maior’, caso o segundo seja maior que o primeiro. 
+     -->
+     <script>
+         let valor1 = parseFloat(prompt("Insira o primeiro valor:"));
+         let valor2 = parseFloat(prompt("Insira o segundo valor:"));
+
+         if (valor1 == valor2) {
+             alert("Os valores são iguais!")
+         } else if (valor1 > valor2) {
+             alert("O primeiro valor é maior!");
+         } else if (valor2 > valor1) {
+             alert("O segundo valor é maior!");
+         }
+     </script>
+</body>
+</html>

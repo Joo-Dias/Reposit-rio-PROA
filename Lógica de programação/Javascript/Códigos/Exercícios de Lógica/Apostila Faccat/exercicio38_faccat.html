@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá mostrar uma 'tela de login'.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Conta, Login">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha conta</title>
+</head>
+<body>
+    <!-- 
+        38) Faça um algoritmo para ler um número que é um código de usuário. Caso este código seja
+        diferente de um código armazenado internamente no algoritmo (igual a 1234) deve ser apresentada a
+        mensagem ‘Usuário inválido!’. Caso o Código seja correto, deve ser lido outro valor que é a senha. Se
+        esta senha estiver incorreta (a certa é 9999) deve ser mostrada a mensagem ‘senha incorreta’. Caso a
+        senha esteja correta, deve ser mostrada a mensagem ‘Acesso permitido’.
+     -->
+     <script>
+         let idUsuario = parseInt(prompt("Digite seu código de usuário:"));
+         
+
+         if(idUsuario == 1234) {
+             alert("Usuário válido!");
+             let senha = parseInt(prompt("Digite sua senha:"));
+             if(senha == 9999) {
+                 alert("Acesso permitido!");
+             } else {
+                 alert("Senha incorreta!");
+             }
+         } else {
+             alert("Usuário inválido!");
+         }
+     </script>
+</body>
+</html>

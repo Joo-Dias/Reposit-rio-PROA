@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar a média ponderada.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Média, Ponderada">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Ponderada</title>
+</head>
+<body>
+    <!-- 
+        13) Faça um algoritmo que leia três notas de um aluno, calcule e escreva a média final deste aluno.
+        Considerar que a média é ponderada e que o peso das notas é 2, 3 e 5. Fórmula para o cálculo da média
+        final é:
+                        n1 * 2 + n2 * 3 + n3 * 5
+        mediafinal = -----------------------------------
+                                    10 
+     -->
+    <script>
+        let n1 = parseFloat(prompt("Digite a primeira nota do aluno:"));
+        let n2 = parseFloat(prompt("Digite a segunda nota do aluno:"));
+        let n3 = parseFloat(prompt("Digite a terceira nota do aluno:"));
+        let mediaFianl = (n1 * 2 + n2 * 3 + n3 * 5) / 10;
+        alert("A média final do aluno será de: "+mediaFianl);
+    </script>
+</body>
+</html>

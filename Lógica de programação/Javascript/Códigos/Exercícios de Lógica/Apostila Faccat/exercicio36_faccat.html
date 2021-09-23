@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar a soma do homem e mulhaer mais velha e o homem e a mulhaer mais nova.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Homem, Mulher">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homem e Mulher mais velhos e novos</title>
+</head>
+<body>
+    <!-- 
+        36) Escreva um algoritmo que leia as idades de 2 homens e de 2 mulheres (considere que as idades
+        dos homens serão sempre diferentes entre si, bem como as das mulheres). Calcule e escreva a soma
+        das idades do homem mais velho com a mulher mais nova, e o produto das idades do homem mais
+        novo com a mulher mais velha. 
+     -->
+     <script>
+         let idadeHomemVel = parseInt(prompt("Digite a idade do primeiro homem:"));
+         let idadeHomemNov = parseInt(prompt("Digite a idade do segundo homem:"));
+         let idadeMulherVel = parseInt(prompt("Digite a idade da primeira mulher:"));
+         let idadeMulherNov = parseInt(prompt("Digite a idade da segunda mulher:"));
+         let auxiliar = parseInt();
+         let homemVelMulherNov = idadeHomemVel + idadeMulherNov;
+         let homemNovMulherVel = idadeHomemNov+idadeMulherVel;
+
+         if(idadeHomemVel < idadeMulherNov) {
+            auxiliar = idadeHomemVel;
+            idadeMulherVel = idadeHomemNov;
+            idadeHomemNov = auxiliar;
+         }
+
+         if(idadeMulherVel < idadeMulherNov) {
+             auxiliar = idadeMulherVel;
+             idadeMulherVel = idadeMulherNov;
+             idadeMulherNov = auxiliar;
+         }
+
+         alert("A soma das idades do homem mais velho com a mulher mais nova: "+homemVelMulherNov);
+         alert("A soma das idades do homem mais novo com a mulher mais velha: "+homemNovMulherVel);
+     </script>
+</body>
+</html>

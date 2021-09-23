@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar o maior valor entre os valores inseridos">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Valores, Maiores">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior dos valores</title>
+</head>
+<body>
+    <!-- 
+        28) Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.   
+     -->
+     <script>
+         let valor1 = parseInt(prompt("Digite um valor que não seja zero:"));
+         let valor2 = parseInt(prompt("Digite um segundo valor que não seja zero:"));
+         let valor3 = parseInt(prompt("Digite um terceiro valor que não seja zero:"));
+
+         if(valor1 > valor2 && valor1 > valor3) {
+             alert("O maior valor é: "+valor1);
+         } else if (valor2 > valor1 && valor2 > valor3) {
+             alert("O maior valor é: "+valor2);
+         } else if (valor3 > valor1 && valor3 > valor2) {
+             alert("O maior valor é: "+valor3);
+         }
+     </script>
+</body>
+</html>

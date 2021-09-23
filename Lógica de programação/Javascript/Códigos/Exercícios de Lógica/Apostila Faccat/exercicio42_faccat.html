@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar se um funcionário pode aposentar ou não.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Aposentadoria, Trabalho">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aposentadoria</title>
+</head>
+<body>
+    <!-- 
+        42) Uma empresa quer verificar se um empregado está qualificado para a aposentadoria ou não. Para
+        estar em condições, um dos seguintes requisitos deve ser satisfeito:
+        - Ter no mínimo 65 anos de idade.
+        - Ter trabalhado no mínimo 30 anos.
+        - Ter no mínimo 60 anos e ter trabalhado no mínimo 25 anos.
+        Com base nas informações acima, faça um algoritmo que leia: o número do empregado (código), o ano
+        de seu nascimento e o ano de seu ingresso na empresa. O programa deverá escrever a idade e o tempo
+        de trabalho do empregado e a mensagem 'Requerer aposentadoria' ou 'Não requerer'. 
+     -->
+
+        <script>
+            let idade = parseInt(prompt("Diga sua Idade"));
+            let tempoTrab = parseInt (prompt("Digite o tempo trabalhado"));
+            let codigoEmp = parseInt (prompt("Qual cod. empregado"));
+
+            if (idade >= 60 && tempoTrab >= 25) {
+                 alert("O funcionário " + codigoEmp + " precisa se aposentar, pois tem " + idade + " anos de idade e " + tempoTrab + " anos de trabalho.")
+            }else if (idade >= 65) {
+                    alert("O funcionário " + codigoEmp + " precisa se aposentar, pois tem " + idade + " anos de idade.")
+            }else if (tempoTrab >= 30) {
+                alert("O funcionário " + codigoEmp + " precisa se aposentar, pois tem " + tempoTrab + " anos de trabalho.");
+            }else{
+                alert("não requer aposentadoria");
+            }
+        </script>
+</body>
+</html>
