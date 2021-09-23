@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar a nota de um aluno e verificar se o mesmo foi aprovado.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Nota, Aluno">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota de um aluno</title>
+</head>
+<body>
+    <!-- 
+        d. Ler quatro valores referentes a quatro notas escolares de um aluno e imprimir uma mensagem
+        dizendo que o aluno foi aprovado, se o valor da média escolar for maior ou igual a 7. Se o valor da
+        média for menor que 7, solicitar a nota de exame, somar com o valor da média e obter nova média.
+        Se a nova média for maior ou igual a 5, apresentar uma mensagem dizendo que o aluno foi
+        aprovado em exame. Se o aluno não foi aprovado, indicar uma mensagem informando esta
+        condição. Apresentar com as mensagens o valor da média do aluno, para qualquer condição. 
+     -->
+    <script>
+        let n1 = parseFloat(prompt("Digite a primeira nota:"));
+        let n2 = parseFloat(prompt("Digite a segunda nota:"));
+        let n3 = parseFloat(prompt("Digite a terceira nota:"));
+        let n4 = parseFloat(prompt("Digite a quarta nota:"));
+        let mediaNota = (n1 + n2 + n3 + n4) / 4;
+        let notaExame = parseFloat();
+        let novaMedia = parseFloat();
+
+        if(mediaNota >= 7) {
+            alert("O aluno foi aprovado! Com uma média de: "+mediaNota);
+        } else if(mediaNota < 7) {
+            alert("A nota está abaixo de 7.");
+            let notaExame = parseFloat(prompt("Digite a nota do exame:"));
+            novaMedia = (mediaNota + notaExame) / 2;
+            if(novaMedia >= 5) {
+                alert("O aluno foi aprovado no examo! Com uma média de: "+novaMedia);
+            } else if(novaMedia < 5) {
+                alert("O aluno foi reprovado no exame com uma média de: "+novaMedia);
+            }
+        }
+    </script>
+</body>
+</html>

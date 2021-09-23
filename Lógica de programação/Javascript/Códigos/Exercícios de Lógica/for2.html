@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Laço,fOR,JavaScript">
+    <meta name="description" content="Utilizando for no JavaScript">
+    <meta name="author" content="João Dias">
+    <title>Laços de Repetição em JavaScript</title>
+</head>
+<body>
+    <h2>Tabuada com Repetição For em JavaScript</h2>
+    <p>Tabuada com Repetição For em JavaScript</p>
+    <p id="demo"></p>
+    <script>
+        var text = "";
+        var numero=4;
+        for (let cont = 1; cont <= 10; cont++) {
+            text += "<br>" + numero + " * " + cont + " = "+ numero*cont;
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

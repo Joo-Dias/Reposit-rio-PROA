@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar os votos sejam eles nulos,brancos ou válidos de cada candidato.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Votos, Candidatos">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleições</title>
+</head>
+
+<body>
+    <!--
+        Em uma eleição sindical concorreram ao cargo de presidente três candidatos (A, B e C). Durante a
+        apuração dos votos foram computados votos nulos e votos em branco, além dos votos válidos para
+        cada candidato. Deve ser criado um programa de computador que efetue a leitura da quantidade de
+        votos válidos para cada candidato, além de efetuar também a leitura da quantidade de votos nulos e
+        votos em branco. Ao final o programa deve apresentar o número total de eleitores, considerando votos
+        válidos, nulos e em branco; o percentual correspondente de votos válidos em relação à quantidade de
+        eleitores; o percentual correspondente de votos válidos do candidato A em relação à quantidade de
+        eleitores; o percentual correspondente de votos válidos do candidato B em relação à quantidade de
+        eleitores; o percentual correspondente de votos válidos do candidato C em relação à quantidade de
+        eleitores; o percentual correspondente de votos nulos em relação à quantidade de eleitores; e por último
+        o percentual correspondente de votos em branco em relação à quantidade de eleitores.
+    -->
+    <script>
+        let A = parseFloat(prompt("Digite a quantidade de votos válidos para o candidato A:"));
+        let B = parseFloat(prompt("Digite a quantidade de votos válidos para o candidato B:"));
+        let C = parseFloat(prompt("Digite a quantidade de votos válidos para o candidato C:"))
+        let votoNulo = parseFloat(prompt("Digite a quantide de votos nulos:"));
+        let votoBranco = parseFloat(prompt("Digite a quantidade de votos brancos"));
+
+        votoValido = A + B + C;
+        totalEleitor = votoValido + votoNulo + votoBranco;
+
+        percTotalValido = ((votoValido*100) / totalEleitor);
+        percValidoA = ((A*100) / totalEleitor);
+        percValidoB = ((B*100) / totalEleitor);
+        percValidoC = ((C*100) / totalEleitor);
+        percNulo = ((votoNulo*100) / totalEleitor);
+        percBranco = ((votoBranco*100) / totalEleitor);
+
+        alert("O total de eleitores: "+totalEleitor+
+            "\n A porcentagem de votos para o candidato A: "+percValidoA+
+            "\n A porcentagem de votos para o candidato B: "+percValidoB+
+            "\n A porcentagem de votos para o candidato C "+percValidoC+
+            "\n A porcentagem de votos nulos: "+percNulo+
+            "\n A porcentagem de votos brancos: "+percBranco);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Residência, Calcular">
+    <meta name="description" content="O programa irá mostrar o resultado do caulculo de uma residência.">
+    <meta name="author" content="João Dias">
+    <title>Residência</title>
+</head>
+<body>
+    <!-- 
+        k) Elaborar um programa que possibilite calcular a área total de uma residência (sala, cozinha,
+        banheiro, quartos, área de serviço, quintal, garagem, etc.). O programa deve solicitar a entrada do
+        nome, a largura e o comprimento de um determinado cômodo. Em seguida, deve apresentar a área do cômodo lido e também uma mensagem solicitando do usuário a confirmação de continuar
+        calculando novos cômodos. Caso o usuário responda “NAO”, o programa deve apresentar o valor
+        total acumulado da área residencial. 
+     -->  
+    <script>
+        let pergunta = String(prompt("Deseja calcular mais algum comôdo?"));
+        while(pergunta == "sim") {
+            let nome = String(prompt("Digite o nome do cômodo:"));
+            let comprimento = parseFloat(prompt("Digite o comprimento do cômodo:"));
+            let largura = parseFloat(prompt("Digite a largura do cômodo:"));
+
+            let area = comprimento * largura;
+            alert("O tamanho da área do cômodo é de: "+area);
+            let total = total+area;
+
+            pergunta = String(prompt("Deseja calcular mais algum comôdo?"));
+        }
+
+        alert("O total das áreas calculadas é: "+total);
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar a diferença de um valor maior pelo menor.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Maior, Menor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferença do maior pelo menor</title>
+</head>
+<body>
+    <!-- 
+        b. Efetuar a leitura de um valor inteiro positivo ou negativo e apresentar o número lido como sendo um
+        valor positivo, ou seja, o programa deverá apresentar o módulo de um número fornecido. Lembre-se
+        de verificar se o número fornecido é menor que zero; sendo, multiplique-o por -1. 
+     -->
+    <script>
+        let valor = parseInt(prompt("Digite um valor inteiro:"));
+        let auxiliar = parseInt();
+        if(valor < 0) {
+            auxiliar = valor*(-1);
+        }
+        alert("O valor é: "+auxiliar);
+    </script>
+</body>
+</html>

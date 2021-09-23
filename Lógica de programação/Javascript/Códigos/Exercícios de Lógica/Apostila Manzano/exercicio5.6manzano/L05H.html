@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Divisíveis, Números">
+    <meta name="description" content="O programa irá mostrar todos os números divisíveis por 4.">
+    <meta name="author" content="João Dias">
+    <title>Potências</title>
+</head>
+<body>
+    <!-- 
+        h) Elaborar um programa que apresente como resultado o valor de uma potência de uma base
+        qualquer elevada a um expoente qualquer, ou seja, de BE
+        , em que B é o valor da base e E o valor
+        do expoente. Observe que neste exercício não pode ser utilizado o operador de exponenciação do
+        portuguol (^). 
+     -->
+       
+    <script>
+        let base = parseFloat(prompt("Digite um valor para base:"));
+        let expo = parseFloat(prompt("Digite um valor para o expoente:"));
+        let potencia = 1;
+
+        for(let cont = 0; cont<expo; cont++) {
+            potencia = potencia*expo;
+        }
+        alert(base+" elevado a "+expo+" = "+potencia);
+    </script>
+</body>
+</html>     

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, ímpares, Fatorial">
+    <meta name="description" content="O programa irá mostrar o fatorial dos números ímpares.">
+    <meta name="author" content="João Dias">
+    <title>Fatorial ímpares</title>
+</head>
+<body>
+    <!-- 
+        g) Elaborar um programa que apresente como resultado o valor do fatorial dos valores ímpares
+        situados na faixa numérica de 1 a 10. 
+     -->
+       
+    <script>
+        let cont = 1;
+        let contFatorial = 0;
+        let fatorial = 0;
+    
+        do {
+            contFatorial = 1;
+            fatorial = 1;
+            do {
+                fatorial = fatorial*contFatorial;
+                contFatorial = contFatorial + 1;
+            } while(contFatorial<cont);
+            alert("O fatorial de "+cont+" é "+fatorial);
+            cont = cont +2;
+        } while(cont <= 10);
+
+
+    </script>
+</body>
+</html> 

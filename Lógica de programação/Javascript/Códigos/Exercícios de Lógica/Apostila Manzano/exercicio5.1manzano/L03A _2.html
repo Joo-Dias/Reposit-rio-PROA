@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Tabuada, While">
+    <meta name="description" content="O programa irá mostrar a tabuada de um número">
+    <meta name="author" content="João Dias">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1>Tabuada</h1>
+    <p id="demo"></p>
+    <script>
+        var num= 7;
+        var contadora= 1;
+        var result="";
+        do{
+            /*7*1=7*/
+            result +="<br>"+num+"x"+contadora+" = "+(contadora*num);
+            contadora++;
+        } while (contadora <= 10) ;
+        document.getElementById("demo").innerHTML=result;
+    </script>
+</body>
+</html>

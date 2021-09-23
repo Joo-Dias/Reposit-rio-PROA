@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Grãos, Soma">
+    <meta name="description" content="O programa irá mostrar a soma dos grãos de trigo.">
+    <meta name="author" content="João Dias">
+    <title>Grãos de trigo</title>
+</head>
+<body>
+    <!-- 
+        d) Elaborar um programa que efetue o cálculo e no final apresente o somatório do número de grãos de
+        trigo que se pode obter num tabuleiro de xadrez, obedecendo à seguinte regra: colocar um grão de
+        trigo no primeiro quadro e nos quadros seguintes o dobro do quadro anterior. Ou seja, no primeiro
+        quadro coloca-se 1 grão, no segundo quadro colocam-se 2 grãos (neste momento têm-se 3 grãos),
+        no terceiro quadro colocam-se 4 grãos (tendo neste momento 7 grãos), no quarto colocam-se 8
+        grãos (tendo-se então 15 grãos) até atingir o sexagésimo quarto (64o
+        ) quadro. Utilize variáveis do
+        tipo real como acumuladores. 
+     -->
+       
+    <script>
+        let b = 2;
+        let c = 1;
+        let d = 1;
+        let s = 1;
+        do {
+            d = b;
+            c = c+1;
+            s = s+d;
+        } while(c < 63);
+        alert("A soma é igual a: "+s);
+    </script>
+</body>
+</html>

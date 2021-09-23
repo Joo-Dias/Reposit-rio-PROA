@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Potências, Valores">
+    <meta name="description" content="O programa irá mostrar as potências de 3.">
+    <meta name="author" content="João Dias">
+    <title>Potências de 3</title>
+</head>
+<body>
+    <!-- 
+        e) Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15. Deve ser
+        considerado que qualquer número elevado a zero é 1, e elevado a 1 é ele próprio. Observe que
+        neste exercício não pode ser utilizado o operador de exponenciação do portuguol (^).    
+     -->
+     <p id="demo"></p>
+    <script>
+        let cont = 0;
+        let result = 3;
+
+        while(cont <= 15) {
+            result = 3*result;
+            alert(result);
+            cont++;
+        }
+    </script>
+</body>
+</html>

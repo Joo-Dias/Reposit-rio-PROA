@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar a conversão de uma temperatura">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Conversão, Temperatura">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+</head>
+<body>
+    <!-- 
+        b) Ler uma temperatura em graus Fahrenheit e apresentá-la convertida em graus Celsius. A fórmula de
+        conversão é C ← (F - 32) * (5/9) , sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
+     -->
+    <script>
+        let temperaturaF = parseFloat(prompt("Informe os graus Fahrenheit:"));
+        let temperaturaC = (temperaturaF-32)* (5/9);
+        alert("A conversão de graus celsius para graus fahrenehit é de: "+temperaturaC);
+    </script>
+</body>
+</html>

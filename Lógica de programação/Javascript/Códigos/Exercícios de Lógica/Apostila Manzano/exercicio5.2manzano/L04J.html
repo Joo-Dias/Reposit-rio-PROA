@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Divisão, Operador">
+    <meta name="description" content="O programa irá mostrar o resultado de um divisão sem usar o operdador.">
+    <meta name="author" content="João Dias">
+    <title>Divisão</title>
+</head>
+<body>
+    <!-- 
+        j) Elaborar um programa que apresente o resultado inteiro da divisão de dois números quaisquer.
+        Para a elaboração do programa, não utilizar em hipótese alguma o conceito do operador aritmético
+        DIV. A solução deve ser alcançada com a utilização de looping. Ou seja, o programa deve
+        apresentar como resultado (quociente) quantas vezes o divisor cabe no dividendo. 
+     -->
+       
+    <script>
+        let cont = 0;
+        let dividendo = parseInt(prompt("Digite um valor pro dividendo:"));
+        let divisor = parseInt(prompt("Digite um valor pro divisor:"));
+
+        if(divisor>dividendo) {
+            alert("Não é possível efetuar a divisão");
+        } else {
+            do {
+                dividendo = dividendo - divisor;
+                cont++;
+            } while(divisor>dividendo);
+        }
+        alert(dividendo);
+    </script>
+</body>
+</html>     

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Média, Valores">
+    <meta name="description" content="O programa irá mostrar a soma, média e o total dos valores..">
+    <meta name="author" content="João Dias">
+    <title>Leitura sucessiva</title>
+</head>
+<body>
+    <!-- 
+        f) Elaborar um programa que efetue a leitura sucessiva de valores numéricos e apresente no final o
+        total do somatório, a média aritmética e o total de valores lidos. O programa deve fazer as leituras
+        dos valores enquanto o usuário estiver fornecendo valores positivos. Ou seja, o programa deve
+        parar quando o usuário fornecer um valor negativo. Não se esqueça que o usuário pode entrar
+        como primeiro número um número negativo, portanto, cuidado com a divisão por zero no cálculo da
+        média.
+     -->
+       
+    <script>
+        let cont = 0;
+        let n = 0;
+        let resultado = 0;
+        let media = 0;
+
+        do {
+            n = prompt("Digite um número:");
+            if(n >= 0) {
+                resultado = resultado  + n;
+                cont++;
+            }
+        } while (n >= 0);
+
+        if(cont > 0) {
+            media = resultado / cont;
+            alert("Foram lidos: "+cont+" números positivos.");
+            alert("A soma dos valores fornecidos é: "+resultado);
+            alert("A média dos valores fornecidos é: "+media);
+        }
+
+    </script>
+</body>
+</html> 

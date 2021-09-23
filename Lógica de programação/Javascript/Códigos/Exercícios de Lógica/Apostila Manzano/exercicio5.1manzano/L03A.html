@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Tabuada, While">
+    <meta name="description" content="O programa irá mostrar a tabuada de um número">
+    <meta name="author" content="João Dias">
+    <title>Tabuada</title>
+</head>
+<body>
+    <!-- 
+        a) Apresentar os resultados de uma tabuada de multiplicar (de 1 até 10) de um número qualquer. 
+     -->
+    <h1>Taboada</h1>
+    <p id="demo"></p>
+    <script>
+        let num= 7;
+        let calc= 1;
+        let result="";
+        while (calc<11){
+            /*7*1=7*/
+            result +="<br>"+num+"x"+calc+" = "+(calc*num);
+            calc++;
+        }
+        document.getElementById("demo").innerHTML=result;
+    </script>
+</body>
+</html>

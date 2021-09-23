@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Média, Somatório">
+    <meta name="description" content="O programa irá mostrar o somatório e a média dos valores.">
+    <meta name="author" content="João Dias">
+    <title>Somatório</title>
+</head>
+<body>
+    <!-- 
+       i) Elaborar um programa que efetue a leitura de 10 valores numéricos e apresente no final o total do
+        somatório e a média aritmética dos valores lidos. 
+     -->  
+    <script>
+        let cont = 0;
+        let soma = 0;
+        let media = 0;
+
+        while(cont <=10) {
+            let numero = parseFloat(prompt("Digite um número:"));
+            soma = soma+numero;
+            cont++;
+        }
+        media = soma/10;
+        alert("Soma total dos valores: "+soma);
+        alert("Média dos valores lidos: "+media);
+    </script>
+</body>
+</html>

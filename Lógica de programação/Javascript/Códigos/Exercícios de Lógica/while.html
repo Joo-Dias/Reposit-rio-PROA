@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá mostrar o laço de repetição While.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Laço, While">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laço de Repetição While</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let text="";
+        let contadora = 1;
+        while(contadora<10) {
+            text+="<br> O número é "+contadora;
+            contadora++;
+        }
+        document.getElementById("demo").innerHTML=text;
+    </script>
+</body>
+</html>

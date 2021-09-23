@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, Fatorial, Valores">
+    <meta name="description" content="O programa irá mostrar o fatorial dos valores.">
+    <meta name="author" content="João Dias">
+    <title>Fatorial</title>
+</head>
+<body>
+    <!-- 
+        e) Elaborar um programa que efetue a leitura de 15 valores numéricos inteiros e no final apresente o
+        total do somatório da fatorial de cada valor lido.
+     -->
+       
+    <script>
+        let cont = 1;
+        let contFatorial = 0;
+        let n = 0;
+        let resultado = 0;
+        let fatorial = 0;
+
+        do {
+            n = prompt("Digite um número:");
+            contFatorial=1;
+            fatorial = 1;
+            do {
+                fatorial = fatorial*contFatorial;
+                contFatorial = contFatorial+1;
+            } while(contFatorial <= n);
+            resultado = resultado+fatorial;
+            cont = cont+1;
+        } while(cont <= 15);
+        alert("A soma dos fatoriais dos valores fornecidos: "+resultado);
+
+    </script>
+</body>
+</html>

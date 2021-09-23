@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar o valor de uma propriedade distributiva">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Propriedade Distributiva, Valor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Distributiva</title>
+</head>
+<body>
+    <!-- 
+        g) Ler quatro números inteiros e apresentar o resultado da adição e multiplicação, baseando-se na
+        utilização do conceito da propriedade distributiva. Ou seja, se forem lidas as variáveis A, B, C, e D,
+        devem ser somadas e multiplicadas A com B, A com C e A com D. Depois B com C, B com D e por fim
+        C com D. Perceba que será necessário efetuar seis operações de adição e seis operações de
+        multiplicação e apresentar doze resultados de saída.
+     -->
+     <script>
+         let A = parseInt(prompt("Insira o primeiro número para A:"));
+         let B = parseInt(prompt("Insira o segundo número para B:"));
+         let C = parseInt(prompt("Insira o terceiro número para C:"));
+         let D = parseInt(prompt("Insira o quarto número para D:"));
+         let somaAB = A + B;
+         let multiAB = A * B;
+         let somaAC = A + C;
+         let multiAC = A * C;
+         let somaAD = A + D;
+         let multiAD = A * D;
+         let somaBC = B + C;
+         let multiBD = B * C;
+         let somaCD = C + D;
+         let multi = C * D; 
+
+         alert("A soma de A com B é: "+somaAB);
+         alert("A multiplicação de A com B é: "+multiAB);
+
+         alert("A soma de A com C é: "+somaAC);
+         alert("A multiplicação de A com C é: "+multiAC);
+
+         alert("A soma de A com D é: "+somaAD);
+         alert("A multiplicação de A com D é: "+multiAD);
+
+         alert("A soma de B com C é: "+somaBC);
+         alert("A multiplicação de B com C é: "+multiBC);
+
+         alert("A soma de C com D é: "+somaCD);
+         alert("A multiplicação de C com D é: "+multiCD);
+
+
+     </script>
+</body>
+</html>

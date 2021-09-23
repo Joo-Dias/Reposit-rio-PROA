@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O programa a seguir irá apresentar a diferença de um valor maior pelo menor.">
+    <meta name="author" content="João Dias">
+    <meta name="keywords" content="JavaScript, Maior, Mneor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferença do maior pelo menor</title>
+</head>
+<body>
+    <!-- 
+        a. Ler dois valores numéricos inteiros e apresentar o resultado da diferença do maior pelo menor valor
+     -->
+    <script>
+        let valor1 = parseInt(prompt("Digite o primeiro valor:"));
+        let valor2 = parseInt(prompt("Digite o segundo valor:"));
+        let diferenca = parseInt();
+
+        if(valor1 > valor2) {
+            diferenca = valor1-valor2;
+            alert("A difrença é de: "+diferenca);
+        } else if(valor2 > valor1) {
+            diferenca = valor2-valor1;
+            alert("A diferença é de: "+diferenca);
+        }
+    </script>
+</body>
+</html>
