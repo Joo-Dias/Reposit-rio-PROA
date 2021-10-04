@@ -1,0 +1,30 @@
+.Main-content {
+    text-align: center;
+}
+
+.Btn-back {
+    margin-top: 3%;
+}
+
+.Main-content a {
+    text-decoration: none;
+    color: #fff;
+    background: blueviolet;
+
+    font-weight: bold;
+    text-transform: uppercase;
+
+    padding: 10px 20px 10px 20px;
+
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+    transition: .3s;
+}
+
+.Main-content a:hover {
+    background: #fff;
+    color: blueviolet;
+
+    border: 2px solid blueviolet;
+}

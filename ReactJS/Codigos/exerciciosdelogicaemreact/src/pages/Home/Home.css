@@ -1,0 +1,43 @@
+.Home-content {
+    text-align: center;
+    width: 100%;
+}
+
+.Home-content-title {
+    text-transform: uppercase;
+}
+
+.Home-content-box {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.Home-content-box a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    color: #fff;
+    background: blueviolet;
+    border: 2px solid transparent;
+    transition: .3s;
+
+    padding: 10px 0 10px 0;
+}
+
+.Home-content-box a:hover {
+    background: #fff;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
